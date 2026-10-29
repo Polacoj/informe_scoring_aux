@@ -1,0 +1,17 @@
+[project]
+name = "informe-scoring"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "flet>=0.86.5",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "pyqt6>=6.11.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "app_general",
+]
